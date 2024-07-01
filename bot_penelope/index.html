@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Penelope ChatBot</title>
+  <link rel="stylesheet" href="/style.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+</head>
+<body>
+  <video id="video-background" autoplay muted loop>
+    <source src="/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="chat">
+    <div class="conversation" id="messageBox">
+    </div>
+    <div class="input-container">
+      <input id="val" class="input-msg" type="text" placeholder="Digite sua mensagem...">
+      <button id="sendButton" class="send-btn">Enviar</button>
+      <button id="voiceButton" class="voice-btn">Iniciar Gravação</button>
+    </div>
+  </div>
+
+  <!-- Inclua o script JavaScript -->
+  <script src="/bot.js"></script> <!-- Corrija o caminho para o arquivo JavaScript -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+</body>
+</html>
